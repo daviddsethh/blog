@@ -1,0 +1,43 @@
+.blog-text{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-text span{
+    font-size: 18px
+}
+
+.blog-text .blog-title{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    color: blue;
+}
+
+.blog-text .blog-title:hover{
+    color: red;
+    transition: all ease 0.3s;
+}
+
+.blog-text p{
+    color: #9b9b9b;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0;
+}
+
+.blog-text a{
+    color: cadetblue;
+}
+
+.blog-text a:hover{
+    color: red;
+    transition: all ease 0.3s;
+}
