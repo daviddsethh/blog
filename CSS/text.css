@@ -35,14 +35,45 @@
 
 .blog-text a button{
     cursor: pointer;
-    background-color: gray;
+    background-color: blue;
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
-    color: cadetblue;
+    color: black;
 }
 
-.blog-text a:hover{
+.blog-text a button:hover{
     color: red;
     transition: all ease-in-out 0.3s;
 }
+
+.abtContainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.abt-box{
+    width: 500px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+
+#edu{
+    padding: 20px;
+}
+
+#bio{
+    padding: 20px;
+}
+
+/* .bioInfo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
