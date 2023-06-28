@@ -17,10 +17,10 @@
     color: blue;
 }
 
-.blog-text .blog-title:hover{
+/* .blog-text .blog-title:hover{
     color: red;
-    transition: all ease 0.3s;
-}
+    transition: all ease-in-out 0.3s;
+} */
 
 .blog-text p{
     color: #9b9b9b;
@@ -34,10 +34,14 @@
 }
 
 .blog-text a{
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
     color: cadetblue;
 }
 
 .blog-text a:hover{
     color: red;
-    transition: all ease 0.3s;
+    transition: all ease-in-out 0.3s;
 }

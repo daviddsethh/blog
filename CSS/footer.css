@@ -41,7 +41,7 @@
     transition: all ease-in-out 0.3s;
 }
 
-.containerBtn{
+/* .containerBtn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,4 +62,4 @@
     background-color: blue;
     transform: scale(1.1);
     transition: all ease-in-out 0.3s;
-}
+} */
